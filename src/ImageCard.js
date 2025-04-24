@@ -41,28 +41,28 @@ const ImageCard = ({ src, alt, description }) => {
           onClick={playAudio}
           className="me-3 mb-3 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
         >
-          🔊 O‘ynatish
+          🔊 Играть
         </button>
         <button
         style={{backgroundColor: "blue"}}
           onClick={pauseAudio}
           className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
         >
-          ⏸ Pauza
+          ⏸ Пауза
         </button>
         <button
         style={{backgroundColor: "blue"}}
           onClick={resumeAudio}
           className="me-3 bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600"
         >
-          ▶️ Davom et
+          ▶️ Продол
         </button>
         <button
         style={{backgroundColor: "blue"}}
           onClick={stopAudio}
           className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
         >
-          ⏹ To‘xtat
+          ⏹ Останав
         </button>
       </div>
     </div>
