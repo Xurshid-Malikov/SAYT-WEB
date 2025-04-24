@@ -70,8 +70,8 @@ const App = () => {
             alt={image.alt}
             description={image.description}
           />
-        ))}
-      </section>
+        ))} 
+      </section> 
     </main>
   );
 };
