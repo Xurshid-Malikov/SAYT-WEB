@@ -30,35 +30,35 @@ const ImageCard = ({ src, alt, description }) => {
       <img
         src={src}
         alt={alt}
-        style={{width: "300px", height: "400px"}}
+        style={{width: "600px", height: "750px"}}
         className="w-full h-48 object-cover rounded-md cursor-pointer"
         onClick={playAudio}
       />
       <p className="mt-2 text-sm text-gray-700">{alt}</p>
-      <div style={{width: "300px"}} className="mt-2 flex gap-2">
+      <div style={{width: "600px", display: "flex", flexWrap: "wrap"}} className="mt-2 flex gap-2">
         <button
-        style={{backgroundColor: "blue"}}
+        style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={playAudio}
-          className="me-3 mb-3 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
+          className="me-2 mb-2 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
         >
           🔊 Играть
         </button>
         <button
-        style={{backgroundColor: "blue"}}
+        style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={pauseAudio}
           className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
         >
           ⏸ Пауза
         </button>
         <button
-        style={{backgroundColor: "blue"}}
+        style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={resumeAudio}
-          className="me-3 bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600"
+          className="me-2 bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600"
         >
           ▶️ Продол
         </button>
         <button
-        style={{backgroundColor: "blue"}}
+        style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={stopAudio}
           className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
         >
