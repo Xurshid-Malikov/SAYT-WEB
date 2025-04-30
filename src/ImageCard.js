@@ -42,7 +42,7 @@ const ImageCard = ({ src, alt, description }) => {
           className="me-2 mb-2 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
         >
           🔊 Играть
-        </button>
+        </button> 
         <button
         style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={pauseAudio}
