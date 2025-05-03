@@ -55,14 +55,14 @@ const ImageCard = ({ src, alt, description }) => {
           onClick={resumeAudio}
           className="me-2 bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600"
         >
-          ▶️ Продол
+          ▶️ Продолжение
         </button>
         <button
         style={{backgroundColor: "blue", fontSize: "35px"}}
           onClick={stopAudio}
           className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
         >
-          ⏹ Останав
+          ⏹ Стоп
         </button>
       </div>
     </div>
